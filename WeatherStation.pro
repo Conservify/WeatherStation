@@ -1,4 +1,4 @@
-update=Tuesday, January 24, 2017 'AMt' 10:11:38 AM
+update=3/10/2017 8:22:34 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=fuelguage
+LibName31=conservify

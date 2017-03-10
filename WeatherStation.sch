@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:fuelguage
+LIBS:conservify
 LIBS:WeatherStation-cache
 EELAYER 25 0
 EELAYER END
@@ -620,4 +621,15 @@ Wire Wire Line
 Wire Wire Line
 	4950 3350 4500 3350
 Connection ~ 5300 4000
+$Comp
+L FEATHER U2
+U 1 1 58C2AA36
+P 4900 5700
+F 0 "U2" H 4500 4250 60  0000 C CNN
+F 1 "FEATHER" H 4900 5700 60  0000 C CNN
+F 2 "" H 4900 5700 60  0001 C CNN
+F 3 "" H 4900 5700 60  0001 C CNN
+	1    4900 5700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
