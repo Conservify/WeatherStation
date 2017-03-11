@@ -1,4 +1,4 @@
-update=3/10/2017 8:22:34 AM
+update=3/10/2017 11:48:38 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../kicad
+LibDir=../kicad;../../../Users/Jacob Lewallen/OneDrive/EE/osh/freetronics_kicad_library/freetronics_footprints.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=fuelguage
 LibName31=conservify
+LibName32=C:/Users/Jacob Lewallen/OneDrive/EE/osh/freetronics_kicad_library/freetronics_schematic
