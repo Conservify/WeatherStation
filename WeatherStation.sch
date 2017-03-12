@@ -230,12 +230,12 @@ $EndComp
 $Comp
 L adafruit-solar-charger U4
 U 1 1 58C2D30F
-P 4400 1050
-F 0 "U4" H 4300 1150 60  0000 C CNN
-F 1 "adafruit-solar-charger" H 4400 1050 60  0000 C CNN
-F 2 "conservify:adafruit-solar-charger" H 4400 1050 60  0001 C CNN
-F 3 "" H 4400 1050 60  0001 C CNN
-	1    4400 1050
+P 4400 2800
+F 0 "U4" H 4300 2900 60  0000 C CNN
+F 1 "adafruit-solar-charger" H 4400 2800 60  0000 C CNN
+F 2 "conservify:adafruit-solar-charger" H 4400 2800 60  0001 C CNN
+F 3 "" H 4400 2800 60  0001 C CNN
+	1    4400 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -296,31 +296,31 @@ NoConn ~ 2100 5800
 NoConn ~ 3450 5000
 NoConn ~ 3450 5100
 NoConn ~ 3450 4800
-Text Label 3000 1200 0    60   ~ 0
+Text Label 3000 2950 0    60   ~ 0
 VLOAD
-Text Label 2600 900  0    60   ~ 0
+Text Label 2600 2650 0    60   ~ 0
 B+
-Text Label 3000 1000 0    60   ~ 0
+Text Label 2250 2850 0    60   ~ 0
 B-
 $Comp
 L GND #PWR012
 U 1 1 58C2E2DD
-P 2700 1150
-F 0 "#PWR012" H 2700 900 50  0001 C CNN
-F 1 "GND" H 2700 1000 50  0000 C CNN
-F 2 "" H 2700 1150 50  0000 C CNN
-F 3 "" H 2700 1150 50  0000 C CNN
-	1    2700 1150
+P 2700 2900
+F 0 "#PWR012" H 2700 2650 50  0001 C CNN
+F 1 "GND" H 2700 2750 50  0000 C CNN
+F 2 "" H 2700 2900 50  0000 C CNN
+F 3 "" H 2700 2900 50  0000 C CNN
+	1    2700 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 1200 3000 1200
+	3350 2950 3000 2950
 Wire Wire Line
-	3000 1000 3350 1000
+	2150 2750 3350 2750
 Wire Wire Line
-	3350 1100 2700 1100
+	3350 2850 2700 2850
 Wire Wire Line
-	2700 1100 2700 1150
+	2700 2850 2700 2900
 $Comp
 L pololu-vreg U3
 U 1 1 58C2E630
@@ -826,16 +826,16 @@ Wire Wire Line
 $Comp
 L CONN_01X02 P3
 U 1 1 58C44B22
-P 2900 700
-F 0 "P3" H 2900 850 50  0000 C CNN
-F 1 "CONN_01X02" V 3000 700 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 2900 700 50  0001 C CNN
-F 3 "" H 2900 700 50  0000 C CNN
-	1    2900 700 
-	0    -1   -1   0   
+P 1950 2800
+F 0 "P3" H 1950 2950 50  0000 C CNN
+F 1 "CONN_01X02" V 2050 2800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 1950 2800 50  0001 C CNN
+F 3 "" H 1950 2800 50  0000 C CNN
+	1    1950 2800
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2850 900  2600 900 
+	2150 2850 2400 2850
 Wire Wire Line
-	2950 900  3350 900 
+	2600 2650 3350 2650
 $EndSCHEMATC
