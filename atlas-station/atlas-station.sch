@@ -192,9 +192,9 @@ Text Label 6300 4900 0    60   ~ 0
 SPE_SEL_1
 Text Label 6300 4800 0    60   ~ 0
 SPE_SEL_2
-Text Label 4400 5000 0    60   ~ 0
-SPE_RX
 Text Label 4400 4900 0    60   ~ 0
+SPE_RX
+Text Label 4400 5000 0    60   ~ 0
 SPE_TX
 Text Label 6300 4600 0    60   ~ 0
 EC_RX
