@@ -31,7 +31,7 @@ LIBS:valves
 LIBS:fuelguage
 LIBS:conservify
 LIBS:freetronics_schematic
-LIBS:WeatherStation-cache
+LIBS:weather-station-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
