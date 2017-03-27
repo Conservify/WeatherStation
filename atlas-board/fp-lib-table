@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name atlas_scientific)(type KiCad)(uri "$(KIPRJMOD)\\atlas_scientific.pretty")(options "")(descr ""))
-)
